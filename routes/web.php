@@ -29,8 +29,8 @@ Route::get('/index', [App\Http\Controllers\PagesController::class, 'index'])->na
 Route::get('/about', [App\Http\Controllers\PagesController::class, 'about'])->name('about');
 Route::get('/services', [App\Http\Controllers\PagesController::class, 'services'])->name('services');
 Route::get('/profiles', [App\Http\Controllers\PagesController::class, 'profiles'])->name('profiles');
-
+Route::get('/contact', [App\Http\Controllers\PagesController::class, 'contact'])->name('contact');
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'home'])->name('home');
+Route::get('/home', [App\Http\Controllers\PagesController::class, 'index'])->name('index');

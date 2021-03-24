@@ -28,9 +28,14 @@ class PagesController extends Controller
     public function profiles()
     {
         $data = array(
-            'title' => 'Profiles',
-            'profiles' => ['Filipino', 'photo', 'photo', 'photo', 'photo'],
+            'title' => 'Profiles: Filipino',
+            'profiles' => ['photo', 'photo', 'photo', 'photo', 'photo'],
         );
         return view('pages.profiles')->with($data);
+    }
+    public function contact()
+    {
+        $title = 'Contact Us';
+        return view('pages.contact', compact('title'));
     }
 }
