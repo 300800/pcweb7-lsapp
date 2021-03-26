@@ -3,13 +3,13 @@
     @section('content')
 <div class="col-md-6">
         <h1><?php echo $title; ?></h1><br>
-        <h3>Office phone: 62935232</h3>
-        <h3>Email: admin@gracesmanpower.com</h3>a href="email"
-        <h3>Website: gracesmanpower.com</h3>
-        <h3>Address: 883 North Bridge Road</h3>
-                     <h3>#05-04 SouthBank</h3>
-                     <h3>Singapore 198785</h3>
-        <h3>Lic No. C0924-01</h3>
+        <h4>Office phone: <a href="tel://62935232">62935232</a></h4>
+        <h4>Email: <a href="mailto:admin@gracesmanpower.com">admin@gracesmanpower.com</a></h4>
+        <h4>Website: <a href="http://www.gracesmanpower.com">www.gracesmanpower.com</a></h4>
+        <h4>Address: 883 North Bridge Road</h4>
+                     <h4>#05-04 SouthBank</h4>
+                     <h4>Singapore 198785</h4>
+        <h4>Lic No. C0924-01</h4>
 
 </div>
 
